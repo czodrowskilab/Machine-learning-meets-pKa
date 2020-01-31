@@ -70,7 +70,7 @@ First of all you have to be in the repository folder and your conda environment 
 to be activated. To use the prediction tool you have to retrain the machine learning model.
 Therefore just call the training script, it will train the 5-fold cross-validated Random
 Forest machine learning model <ins>using **12** cpu cores</ins>. If you want to adjust the number of 
-cores you can edit the train_model.py by changing the value of the variable `EST_JOBS`.
+cores you can edit the `train_model.py` by changing the value of the variable `EST_JOBS`.
 ```bash
 python train_model.sdf
 ```
