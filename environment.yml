@@ -1,0 +1,15 @@
+name: mmws_2020
+channels:
+  - defaults
+  - rdkit
+  - conda-forge
+dependencies:
+  - seaborn
+  - rdkit
+  - matplotlib
+  - scikit-learn
+  - python
+  - jupyterlab
+  - pip
+  - pip:
+    - xgboost
