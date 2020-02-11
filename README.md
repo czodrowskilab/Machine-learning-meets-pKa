@@ -25,18 +25,18 @@ Of course you also need the code from this repository folder.
 First of all you need a working Miniconda/Anaconda installation. You can get
 Miniconda at https://conda.io/en/latest/miniconda.html.
 
-Now you can create an environment named "mmws_2020" with all needed dependencies and
+Now you can create an environment named "ml_pka" with all needed dependencies and
 activate it with:
 ```bash
 conda env create -f environment.yml
-conda activate mmws_2020
+conda activate ml_pka
 ```
 
 You can also create a new environment by yourself and install all dependencies without the
 environment.yml file:
 ```bash
-conda create -n my_env python=3.7
-conda activate my_env
+conda create -n ml_pka python=3.7
+conda activate ml_pka
 ```
 In case of Linux or macOS:
 ````bash
