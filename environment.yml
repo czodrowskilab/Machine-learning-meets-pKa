@@ -1,4 +1,4 @@
-name: mmws_2020
+name: ml_pka
 channels:
   - defaults
   - rdkit
