@@ -72,7 +72,7 @@ Therefore just call the training script, it will train the 5-fold cross-validate
 Forest machine learning model <ins>using **12** cpu cores</ins>. If you want to adjust the number of 
 cores you can edit the `train_model.py` by changing the value of the variable `EST_JOBS`.
 ```bash
-python train_model.sdf
+python train_model.py
 ```
 To use the prediction tool with the trained model *QUACPAC/Tautomers* have to be available 
 as it was mentioned in the [chapter above](#prep).
