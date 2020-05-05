@@ -44,7 +44,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (1) 
-acidic
+basic
 
 >  <ISO_SMI>  (1) 
 C#CC[NH+](C)[C@H](C)Cc1ccc(F)cc1
@@ -86,7 +86,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (2) 
-acidic
+basic
 
 >  <ISO_SMI>  (2) 
 CC(=O)CC1CCCC[NH2+]1
@@ -125,7 +125,7 @@ M  END
 6
 
 >  <marvin_pKa_type>  (3) 
-acidic
+basic
 
 >  <ISO_SMI>  (3) 
 CC(=O)CCC[NH+](C)C
@@ -217,7 +217,7 @@ M  END
 8
 
 >  <marvin_pKa_type>  (5) 
-acidic
+basic
 
 >  <ISO_SMI>  (5) 
 CC(=O)OCCCC[NH+](C)C
@@ -258,7 +258,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (6) 
-acidic
+basic
 
 >  <ISO_SMI>  (6) 
 CC(=O)OCCC[NH+](C)C
@@ -338,7 +338,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (7) 
-acidic
+basic
 
 >  <ISO_SMI>  (7) 
 CC(=O)Oc1ccc2c3c1O[C@@H]1C(OC(C)=O)C=C[C@H]4[C@@H](C2)[NH+](C)CC[C@]314
@@ -470,7 +470,7 @@ M  END
 4
 
 >  <marvin_pKa_type>  (9) 
-acidic
+basic
 
 >  <ISO_SMI>  (9) 
 CC(C)(C)[NH2+]CC(O)COc1ccccc1C1CCCC1
@@ -535,7 +535,7 @@ M  END
 4
 
 >  <marvin_pKa_type>  (10) 
-acidic
+basic
 
 >  <ISO_SMI>  (10) 
 CC(C)(C)[NH2+]CC(O)COc1nsnc1N1CCOCC1
@@ -738,7 +738,7 @@ M  END
 3
 
 >  <marvin_pKa_type>  (13) 
-acidic
+basic
 
 >  <ISO_SMI>  (13) 
 CC(Cc1ccc(C(C)(C)C)cc1)C[NH+]1CC(C)OC(C)C1
@@ -818,7 +818,7 @@ M  END
 19
 
 >  <marvin_pKa_type>  (14) 
-acidic
+basic
 
 >  <ISO_SMI>  (14) 
 CC/C(=C(/c1ccccc1)c1ccc(OCC[NH+](C)C)cc1)c1ccccc1
@@ -862,7 +862,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (15) 
-acidic
+basic
 
 >  <ISO_SMI>  (15) 
 CC1(C)CC(=O)CC(C)(C)[NH2+]1
@@ -969,7 +969,7 @@ M  END
 4
 
 >  <marvin_pKa_type>  (17) 
-acidic
+basic
 
 >  <ISO_SMI>  (17) 
 CC1=CC[NH+]2CCC[C@@H]12
@@ -1033,7 +1033,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (18) 
-acidic
+basic
 
 >  <ISO_SMI>  (18) 
 CC1CCC([NH+]2CCN(c3ccccc3F)CC2)CC1
@@ -1074,7 +1074,7 @@ M  END
 4
 
 >  <marvin_pKa_type>  (19) 
-acidic
+basic
 
 >  <ISO_SMI>  (19) 
 CC1CC[NH+]2CCCC12
@@ -1209,7 +1209,7 @@ M  END
 22
 
 >  <marvin_pKa_type>  (21) 
-acidic
+basic
 
 >  <ISO_SMI>  (21) 
 CCC(=O)OC(Cc1ccccc1)(c1ccccc1)C(C)C[NH+](C)C
@@ -1310,7 +1310,7 @@ M  END
 32
 
 >  <marvin_pKa_type>  (22) 
-acidic
+basic
 
 >  <ISO_SMI>  (22) 
 CCC1OC(=O)CC(O)C(C)C(CC=O)(OC2OC(C)CC([NH+](C)C)C2O)CC(C)C(=O)/C=C\C(C)=C/C1C
@@ -1412,7 +1412,7 @@ M  END
 30
 
 >  <marvin_pKa_type>  (23) 
-acidic
+basic
 
 >  <ISO_SMI>  (23) 
 CCC1OC(=O)CC(O)CC(OC2OC(C)CC([NH+](C)C)C2O)C(CC=O)CC(C)C(=O)/C=C\C2OC2C1C
@@ -1482,7 +1482,7 @@ M  END
 19
 
 >  <marvin_pKa_type>  (24) 
-acidic
+basic
 
 >  <ISO_SMI>  (24) 
 CCCC(=O)Nc1ccc(OC[C@H](O)C[NH2+]C(C)C)c(C(C)=O)c1
@@ -1602,7 +1602,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (26) 
-acidic
+basic
 
 >  <ISO_SMI>  (26) 
 CCCCC1CC[NH+](CCCC(=O)c2ccccc2C)CC1
@@ -1937,7 +1937,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (31) 
-acidic
+basic
 
 >  <ISO_SMI>  (31) 
 CCCCOc1ccc(C(=O)CC[NH+]2CCCCC2)cc1
@@ -1984,7 +1984,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (32) 
-acidic
+basic
 
 >  <ISO_SMI>  (32) 
 CCCOC(=O)NCCC[NH+](C)C
@@ -2061,7 +2061,7 @@ M  END
 6
 
 >  <marvin_pKa_type>  (33) 
-acidic
+basic
 
 >  <ISO_SMI>  (33) 
 CCC[C@@H]1C[C@@H](C(=O)NC(C(C)Cl)[C@H]2O[C@H](SC)[C@H](O)[C@@H](O)[C@H]2O)[NH+](C)C1
@@ -2119,7 +2119,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (34) 
-acidic
+basic
 
 >  <ISO_SMI>  (34) 
 CCN(C)C(=O)Oc1cccc(C(C)[NH+](C)C)c1
@@ -2189,7 +2189,7 @@ M  END
 21
 
 >  <marvin_pKa_type>  (35) 
-acidic
+basic
 
 >  <ISO_SMI>  (35) 
 CCN(CC)C(=O)Nc1ccc(OCC(O)C[NH2+]C)c(C(C)=O)c1
@@ -2267,7 +2267,7 @@ M  END
 6
 
 >  <marvin_pKa_type>  (36) 
-acidic
+basic
 
 >  <ISO_SMI>  (36) 
 CCOC(=O)C1=C[C@]2(CC)CCC[NH+]3CCc4c(n1c1ccccc41)[C@@H]32
@@ -2331,7 +2331,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (37) 
-acidic
+basic
 
 >  <ISO_SMI>  (37) 
 CCOC(=O)[C@@H]1CN(Cc2ccccc2)CC1C(F)(F)F
@@ -2395,7 +2395,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (38) 
-acidic
+basic
 
 >  <ISO_SMI>  (38) 
 CCOC(=O)[C@@H]1CN(Cc2ccccc2)C[C@@H]1C(F)(F)F
@@ -2468,7 +2468,7 @@ M  END
 2
 
 >  <marvin_pKa_type>  (39) 
-acidic
+basic
 
 >  <ISO_SMI>  (39) 
 CC[NH+]1CCCC1CNC(=O)c1cc(S(=O)(=O)CC)c(N)cc1OC
@@ -2497,7 +2497,7 @@ M  END
 2
 
 >  <marvin_pKa_type>  (40) 
-acidic
+basic
 
 >  <ISO_SMI>  (40) 
 CC[NH2+]C
@@ -2565,7 +2565,7 @@ M  END
 19
 
 >  <marvin_pKa_type>  (41) 
-acidic
+basic
 
 >  <ISO_SMI>  (41) 
 CN1c2ccccc2C(=O)N(CC[NH+](C)C)c2ccccc21
@@ -2633,7 +2633,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (42) 
-acidic
+basic
 
 >  <ISO_SMI>  (42) 
 COC(=O)[C@@H]1C2CCC(C[C@@H]1OC(=O)c1ccccc1)[NH+]2C
@@ -2684,7 +2684,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (43) 
-acidic
+basic
 
 >  <ISO_SMI>  (43) 
 COC(=O)[C@@H]1[C@@H](O)C[C@@H]2CC[C@H]1[NH+]2C
@@ -2776,7 +2776,7 @@ M  END
 16
 
 >  <marvin_pKa_type>  (44) 
-acidic
+basic
 
 >  <ISO_SMI>  (44) 
 COC1C=CC(CN2C(=O)[C@H]3C([C@@H]4CCC[NH+]4[C@H]3c3ccc(C#N)cc3)[C@H]2CC(F)F)=CC1
@@ -2836,7 +2836,7 @@ M  END
 3
 
 >  <marvin_pKa_type>  (45) 
-acidic
+basic
 
 >  <ISO_SMI>  (45) 
 COCCc1ccc(OC[C@H](O)C[NH2+]C(C)C)cc1
@@ -2915,7 +2915,7 @@ M  END
 13
 
 >  <marvin_pKa_type>  (46) 
-acidic
+basic
 
 >  <ISO_SMI>  (46) 
 COc1cc(C[NH+]2CCC3(C=Cc4ccccc43)CC2)cc(OC)c1OC
@@ -3001,7 +3001,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (47) 
-acidic
+basic
 
 >  <ISO_SMI>  (47) 
 COc1cc2c(cc1OC)[C@@]13CC[NH+]4CC5=CCOC6CC(=O)N2C1[C@@H]6[C@@H]5C[C@@H]43
@@ -3099,7 +3099,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (49) 
-acidic
+basic
 
 >  <ISO_SMI>  (49) 
 COc1ccc(C[C@H](C)[NH3+])cc1
@@ -3151,7 +3151,7 @@ M  END
 14
 
 >  <marvin_pKa_type>  (50) 
-acidic
+basic
 
 >  <ISO_SMI>  (50) 
 COc1ccc(OC)c([C@H](O)[C@@H](C)[NH3+])c1
@@ -3213,7 +3213,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (51) 
-acidic
+basic
 
 >  <ISO_SMI>  (51) 
 COc1ccc2[nH+]c(-c3ccccc3)cc(N)c2c1
@@ -3283,7 +3283,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (52) 
-acidic
+basic
 
 >  <ISO_SMI>  (52) 
 COc1ccc2c3c1O[C@H]1[C@@H](O)C=CC4[C@@H](C2)[NH+](C)CC[C@@]341
@@ -3351,7 +3351,7 @@ M  END
 13
 
 >  <marvin_pKa_type>  (53) 
-acidic
+basic
 
 >  <ISO_SMI>  (53) 
 COc1ccc2c3c1O[C@H]1[C@@H](O)C=CC4[C@@H](C2)[NH2+]CC[C@@]341
@@ -3397,7 +3397,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (54) 
-acidic
+basic
 
 >  <ISO_SMI>  (54) 
 COc1cccc(C[C@H](C)[NH3+])c1
@@ -3474,7 +3474,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (56) 
-acidic
+basic
 
 >  <ISO_SMI>  (56) 
 C[C@@H]([NH3+])[C@@H](O)c1ccccc1
@@ -3711,7 +3711,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (60) 
-acidic
+basic
 
 >  <ISO_SMI>  (60) 
 C[C@H]([NH3+])Cc1ccccc1
@@ -3755,7 +3755,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (61) 
-acidic
+basic
 
 >  <ISO_SMI>  (61) 
 C[C@H]([NH3+])[C@@H](O)c1ccccc1
@@ -3821,7 +3821,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (62) 
-acidic
+basic
 
 >  <ISO_SMI>  (62) 
 C[NH+](C)CC/C=C1\c2ccccc2COc2ccccc21
@@ -3858,7 +3858,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (63) 
-acidic
+basic
 
 >  <ISO_SMI>  (63) 
 C[NH+](C)CCCC#N
@@ -3897,7 +3897,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (64) 
-acidic
+basic
 
 >  <ISO_SMI>  (64) 
 C[NH+](C)CCCCC#N
@@ -3951,7 +3951,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (65) 
-acidic
+basic
 
 >  <ISO_SMI>  (65) 
 C[NH+](C)CCCCS(=O)(=O)c1ccccc1
@@ -4003,7 +4003,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (66) 
-acidic
+basic
 
 >  <ISO_SMI>  (66) 
 C[NH+](C)CCCCS(=O)c1ccccc1
@@ -4053,7 +4053,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (67) 
-acidic
+basic
 
 >  <ISO_SMI>  (67) 
 C[NH+](C)CCCCSc1ccccc1
@@ -4105,7 +4105,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (68) 
-acidic
+basic
 
 >  <ISO_SMI>  (68) 
 C[NH+](C)CCCNC(=O)c1ccccc1
@@ -4175,7 +4175,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (69) 
-acidic
+basic
 
 >  <ISO_SMI>  (69) 
 C[NH+](C)CCCOc1nn(Cc2ccccc2)c2ccccc12
@@ -4225,7 +4225,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (70) 
-acidic
+basic
 
 >  <ISO_SMI>  (70) 
 C[NH+](C)CCNC(=O)c1ccccc1
@@ -4293,7 +4293,7 @@ M  END
 17
 
 >  <marvin_pKa_type>  (71) 
-acidic
+basic
 
 >  <ISO_SMI>  (71) 
 C[NH+](C)CCOC1(c2ccccc2)CC2CCC1(C)C2(C)C
@@ -4336,7 +4336,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (72) 
-acidic
+basic
 
 >  <ISO_SMI>  (72) 
 C[NH+]1[C@H]2CC[C@@H]1CC(O)C2
@@ -4402,7 +4402,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (73) 
-acidic
+basic
 
 >  <ISO_SMI>  (73) 
 C[NH+]1[C@H]2CC[C@@H]1CC(OC(=O)C(CO)c1ccccc1)C2
@@ -4468,7 +4468,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (74) 
-acidic
+basic
 
 >  <ISO_SMI>  (74) 
 C[NH+]1[C@H]2CC[C@@H]1CC(OC(=O)[C@H](CO)c1ccccc1)C2
@@ -4514,7 +4514,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (75) 
-acidic
+basic
 
 >  <ISO_SMI>  (75) 
 C[NH2+]C(C)(C)Cc1ccccc1
@@ -4562,7 +4562,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (76) 
-acidic
+basic
 
 >  <ISO_SMI>  (76) 
 C[NH2+]C(C)Cc1ccccc1OC
@@ -4626,7 +4626,7 @@ M  END
 1
 
 >  <marvin_pKa_type>  (77) 
-acidic
+basic
 
 >  <ISO_SMI>  (77) 
 C[NH2+]C1CCC(c2ccc(Cl)c(Cl)c2)c2ccccc21
@@ -4670,7 +4670,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (78) 
-acidic
+basic
 
 >  <ISO_SMI>  (78) 
 C[NH2+][C@@H](C)Cc1ccccc1
@@ -4716,7 +4716,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (79) 
-acidic
+basic
 
 >  <ISO_SMI>  (79) 
 C[NH2+][C@H](C)[C@@H](O)c1ccccc1
@@ -4795,7 +4795,7 @@ M  END
 24
 
 >  <marvin_pKa_type>  (80) 
-acidic
+basic
 
 >  <ISO_SMI>  (80) 
 Cc1c(Cl)cccc1-n1ncc(C(=O)Nc2nccs2)c1C1CC[NH2+]CC1
@@ -4996,7 +4996,7 @@ M  END
 24
 
 >  <marvin_pKa_type>  (83) 
-acidic
+basic
 
 >  <ISO_SMI>  (83) 
 Cc1ccc(-n2ncc(C(=O)Nc3nccs3)c2C2CC[NH2+]CC2)cc1C
@@ -5070,7 +5070,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (84) 
-acidic
+basic
 
 >  <ISO_SMI>  (84) 
 Cc1ccc(C)c(N2CC[NH+](C3C4CC5CC(C4)CC3C5)CC2)c1
@@ -5134,7 +5134,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (85) 
-acidic
+basic
 
 >  <ISO_SMI>  (85) 
 Cc1ccc(C)c(N2CC[NH+](C3CCC(C)C3)CC2)c1
@@ -5200,7 +5200,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (86) 
-acidic
+basic
 
 >  <ISO_SMI>  (86) 
 Cc1ccc(C)c(N2CC[NH+](C3CCCC(C)C3)CC2)c1
@@ -5266,7 +5266,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (87) 
-acidic
+basic
 
 >  <ISO_SMI>  (87) 
 Cc1ccc(C)c(N2CC[NH+](C3CCCCCC3)CC2)c1
@@ -5343,7 +5343,7 @@ M  END
 23
 
 >  <marvin_pKa_type>  (88) 
-acidic
+basic
 
 >  <ISO_SMI>  (88) 
 Cc1cccc(-n2ncc(C(=O)Nc3nccs3)c2C2CC[NH2+]CC2)c1
@@ -5508,7 +5508,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (90) 
-acidic
+basic
 
 >  <ISO_SMI>  (90) 
 FC(F)(F)c1cccc(N2CC[NH+](C3C4CC5CC(C4)CC3C5)CC2)c1
@@ -5543,7 +5543,7 @@ M  END
 2
 
 >  <marvin_pKa_type>  (91) 
-acidic
+basic
 
 >  <ISO_SMI>  (91) 
 FC1(F)CCNC1
@@ -5577,7 +5577,7 @@ M  END
 2
 
 >  <marvin_pKa_type>  (92) 
-acidic
+basic
 
 >  <ISO_SMI>  (92) 
 FC1CC[NH2+]C1
@@ -5628,7 +5628,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (93) 
-acidic
+basic
 
 >  <ISO_SMI>  (93) 
 F[C@@H]1C[NH2+]CC[C@H]1Cc1ccccc1
@@ -5679,7 +5679,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (94) 
-acidic
+basic
 
 >  <ISO_SMI>  (94) 
 F[C@H]1C[NH2+]CC[C@H]1Cc1ccccc1
@@ -5716,7 +5716,7 @@ M  END
 3
 
 >  <marvin_pKa_type>  (95) 
-acidic
+basic
 
 >  <ISO_SMI>  (95) 
 N#CC1CC(F)CN1
@@ -5803,7 +5803,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (96) 
-acidic
+basic
 
 >  <ISO_SMI>  (96) 
 N#Cc1ccc([C@H]2[C@H]3C(O)N(Cc4ccc(F)cc4)C(=O)[C@H]3[C@@H]3CC(F)(F)CN32)cc1
@@ -5882,7 +5882,7 @@ M  END
 20
 
 >  <marvin_pKa_type>  (97) 
-acidic
+basic
 
 >  <ISO_SMI>  (97) 
 N#Cc1ccc2c(c1)N(CCCC[NH+]1CCC(O)CC1)c1ccccc1S2
@@ -5927,7 +5927,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (98) 
-acidic
+basic
 
 >  <ISO_SMI>  (98) 
 NCCS(=O)(=O)c1ccccc1
@@ -5990,7 +5990,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (99) 
-acidic
+basic
 
 >  <ISO_SMI>  (99) 
 Nc1c2c([nH+]c3ccccc13)-c1ccccc1CC2
@@ -6050,7 +6050,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (100) 
-acidic
+basic
 
 >  <ISO_SMI>  (100) 
 Nc1cc(-c2ccccc2)[nH+]c2ccc(Br)cc12
@@ -6110,7 +6110,7 @@ M  END
 15
 
 >  <marvin_pKa_type>  (101) 
-acidic
+basic
 
 >  <ISO_SMI>  (101) 
 Nc1cc(-c2ccccc2)[nH+]c2ccc(Cl)cc12
@@ -6191,7 +6191,7 @@ M  END
 13
 
 >  <marvin_pKa_type>  (102) 
-acidic
+basic
 
 >  <ISO_SMI>  (102) 
 O=C(CCC[NH+]1CC=C(n2c(=O)[nH]c3ccccc32)CC1)c1ccc(F)cc1
@@ -6639,7 +6639,7 @@ M  END
 3
 
 >  <marvin_pKa_type>  (110) 
-acidic
+basic
 
 >  <ISO_SMI>  (110) 
 O=C1CCCN1CC#CC[NH+]1CCCC1
@@ -6717,7 +6717,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (111) 
-acidic
+basic
 
 >  <ISO_SMI>  (111) 
 O=C1C[C@@H]2OCC=C3C[NH+]4CC[C@]56c7ccccc7N1[C@H]5C2[C@H]3C[C@H]46
@@ -6754,7 +6754,7 @@ M  END
 7
 
 >  <marvin_pKa_type>  (112) 
-acidic
+basic
 
 >  <ISO_SMI>  (112) 
 O=S1(=O)CCNCC1
@@ -6791,7 +6791,7 @@ M  END
 6
 
 >  <marvin_pKa_type>  (113) 
-acidic
+basic
 
 >  <ISO_SMI>  (113) 
 [NH3+]C(CO)(CO)CO
@@ -6843,7 +6843,7 @@ M  END
 14
 
 >  <marvin_pKa_type>  (114) 
-acidic
+basic
 
 >  <ISO_SMI>  (114) 
 [NH3+]CCCCCS(=O)(=O)c1ccccc1
@@ -6891,7 +6891,7 @@ M  END
 12
 
 >  <marvin_pKa_type>  (115) 
-acidic
+basic
 
 >  <ISO_SMI>  (115) 
 [NH3+]CCCCCSc1ccccc1
@@ -6941,7 +6941,7 @@ M  END
 13
 
 >  <marvin_pKa_type>  (116) 
-acidic
+basic
 
 >  <ISO_SMI>  (116) 
 [NH3+]CCCCS(=O)(=O)c1ccccc1
@@ -6987,7 +6987,7 @@ M  END
 11
 
 >  <marvin_pKa_type>  (117) 
-acidic
+basic
 
 >  <ISO_SMI>  (117) 
 [NH3+]CCCCSc1ccccc1
@@ -7035,7 +7035,7 @@ M  END
 12
 
 >  <marvin_pKa_type>  (118) 
-acidic
+basic
 
 >  <ISO_SMI>  (118) 
 [NH3+]CCCS(=O)(=O)c1ccccc1
@@ -7079,7 +7079,7 @@ M  END
 10
 
 >  <marvin_pKa_type>  (119) 
-acidic
+basic
 
 >  <ISO_SMI>  (119) 
 [NH3+]CCCSc1ccccc1
@@ -7121,7 +7121,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (120) 
-acidic
+basic
 
 >  <ISO_SMI>  (120) 
 [NH3+]CCSc1ccccc1
@@ -7181,7 +7181,7 @@ M  END
 17
 
 >  <marvin_pKa_type>  (121) 
-acidic
+basic
 
 >  <ISO_SMI>  (121) 
 [NH3+]Cc1cc(-c2ccccc2)nc2ccccc12
@@ -7228,7 +7228,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (122) 
-acidic
+basic
 
 >  <ISO_SMI>  (122) 
 c1ccc(N2CC[NH2+]CC2)cc1
@@ -7275,7 +7275,7 @@ M  END
 9
 
 >  <marvin_pKa_type>  (123) 
-acidic
+basic
 
 >  <ISO_SMI>  (123) 
 c1cnc(N2CC[NH2+]CC2)nc1

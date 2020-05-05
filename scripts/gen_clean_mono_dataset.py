@@ -331,7 +331,7 @@ def run_marvin_pka(df: pd.DataFrame) -> pd.DataFrame:
     df.atoms = pd.to_numeric(df.atoms, errors='coerce')
     df.dropna(subset=['atoms'], inplace=True)
     df.atoms = df.atoms.astype(int, copy=False).apply(lambda x: x - 1)
-    df['pKa_type'] = df.apKa1.apply(lambda x: 'basic' if x is None else 'acidic')
+    df['pKa_type'] = df.apKa1.apply(lambda x: 'basic' if np.isnan(x) else 'acidic')
     df.apKa1 = df[['apKa1', 'bpKa1']].sum(axis=1)
     df.drop(columns=['bpKa1', 'apKa2', 'bpKa2'], inplace=True)  # 'count'
     return df

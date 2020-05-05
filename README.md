@@ -62,7 +62,7 @@ file) and `JAVA_HOME` (referring to the *Java* installation folder, which is nee
 After preparation you can display a small usage information with `bash run_pipeline.sh -h`.
 Example call:
 ```bash
-bash run_pipeline.sh --train datasets/chembl25.sdf --test datasets/novartis_cleaned_mono_unique_notraindata.sdf
+bash run_pipeline.sh --train datasets/chembl25.sdf --test datasets/AvLiLuMoVe.sdf
 ```
 
 ### Prediction tool
