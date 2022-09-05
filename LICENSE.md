@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright © `2020` `Marcel Baltruschat`
+Copyright © `2020-2022` `Marcel Baltruschat`
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
