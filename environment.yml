@@ -1,7 +1,5 @@
 name: ml_pka
 channels:
-  - defaults
-  - rdkit
   - conda-forge
 dependencies:
   - seaborn
@@ -10,6 +8,4 @@ dependencies:
   - scikit-learn
   - python
   - jupyterlab
-  - pip
-  - pip:
-    - xgboost
+  - xgboost
