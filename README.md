@@ -35,18 +35,9 @@ conda activate ml_pka
 You can also create a new environment by yourself and install all dependencies without the
 environment.yml file:
 ```bash
-conda create -n ml_pka python=3.7
+conda create -n ml_pka -c conda-forge python=3.10
 conda activate ml_pka
-```
-In case of Linux or macOS:
-````bash
-conda install -c defaults -c rdkit -c conda-forge scikit-learn rdkit xgboost jupyterlab matplotlib seaborn
-````
-
-In case of Windows:
-```bash
-conda install -c defaults -c rdkit scikit-learn rdkit jupyterlab matplotlib seaborn
-pip install xgboost
+conda install -c conda-forge scikit-learn rdkit xgboost jupyterlab matplotlib seaborn
 ```
 
 ## Usage
