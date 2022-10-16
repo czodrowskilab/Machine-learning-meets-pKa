@@ -92,7 +92,7 @@ dataset provided by Novartis<sup>[6]</sup>, used as external testset
 ## Authors
 
 **Marcel Baltruschat** - [GitHub](https://github.com/mrcblt), [E-Mail](mailto:marcel.baltruschat@tu-dortmund.de)<br>
-**Paul Czodrowski** - [GitHub](https://github.com/czodrowskilab), [E-Mail](mailto:paul.czodrowski@tu-dortmund.de)
+**Paul Czodrowski** - [GitHub](https://github.com/czodrowskilab), [E-Mail](mailto:czodpaul@uni-mainz.de)
 
 ## License
 
