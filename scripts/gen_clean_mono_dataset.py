@@ -383,7 +383,7 @@ def run_molvs_tautomers(df: pd.DataFrame) -> pd.DataFrame:
         DataFrame with tautomer canonized and uncharged structures
     """
     uc = Uncharger()
-    tc = TautomerCanonicalizer(max_tautomers=100)  # Default is 1000 but this takes to long
+    tc = TautomerCanonicalizer(max_tautomers=1000)  # Default is 1000
     for ix in df.index:
         df.loc[ix, 'ROMol'] = check_sanitization(tc.canonicalize(uc.uncharge(df.loc[ix, 'ROMol'])))
     df.dropna(subset=['ROMol'], inplace=True)
