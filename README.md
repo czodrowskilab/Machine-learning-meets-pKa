@@ -64,7 +64,8 @@ First of all you have to be in the repository folder and your conda environment 
 to be activated. To use the prediction tool you have to retrain the machine learning model.
 Therefore, just call the training script, it will train the 5-fold cross-validated Random
 Forest machine learning model <ins>using **12** cpu cores</ins>. If you want to adjust the number of 
-cores you can edit the `train_model.py` by changing the value of the variable `EST_JOBS`.
+cores you can use the parameter `--num-processes`. If you want to use the dataset that was prepared
+without the usage of *QUACPAC/Tautomers* you can use the `--no-openeye` flag. Example call:
 ```bash
 python train_model.py
 ```
@@ -87,10 +88,12 @@ be correct.
 2. `chembl25.sdf` - Experimental p<i>K</i><sub>a</sub> data extracted from ChEMBL25<sup>[4]</sup>
 3. `datawarrior.sdf` - p<i>K</i><sub>a</sub> data shipped with DataWarrior<sup>[5]</sup>
 4. `combined_training_datasets_unique.sdf` -  [Preprocessed](#prep) and combined data 
-from datasets (2) and (3), used as training dataset
-5. `AvLiLuMoVe_cleaned_mono_unique_notraindata.sdf` - [Preprocessed](#prep) data from dataset (1),
+from datasets (2) and (3), used as training dataset and prepared with *QUACPAC/Tautomers*<sup>[2]</sup>
+5. `combined_training_datasets_unique_no_oe.sdf` -  [Preprocessed](#prep) and combined data 
+from datasets (2) and (3), prepared with RDKit MolVS instead of *QUACPAC/Tautomers*<sup>[2]</sup>
+6. `AvLiLuMoVe_cleaned_mono_unique_notraindata.sdf` - [Preprocessed](#prep) data from dataset (1),
 used as external testset
-6. `novartis_cleaned_mono_unique_notraindata.sdf` - [Preprocessed](#prep) data from an inhouse
+7. `novartis_cleaned_mono_unique_notraindata.sdf` - [Preprocessed](#prep) data from an inhouse
 dataset provided by Novartis<sup>[6]</sup>, used as external testset
 
 ## Authors
