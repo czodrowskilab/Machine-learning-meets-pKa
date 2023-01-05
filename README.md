@@ -17,8 +17,8 @@ For the data preparation pipeline, *ChemAxon Marvin*<sup>[1]</sup> is required, 
 prediction model with the included Python script, *ChemAxon Marvin*<sup>[1]</sup> 
 is <ins>not</ins> required. By default *OpenEye QUACPAC/Tautomers*<sup>[2]</sup> is used for
 tautomer and charge standardization. If you want to use *RDKit*<sup>[3]</sup> instead, you
-can use the `--no-openeye` flag for the `run_pipeline.sh` script as well as for the
-`predict_sdf.py` script.
+can use the `--no-openeye` flag for the `run_pipeline.sh` script as well as for the `train_model.py`
+and `predict_sdf.py` scripts.
 
 Of course, you also need the code from this repository folder.
 
