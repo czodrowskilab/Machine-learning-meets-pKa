@@ -14,11 +14,12 @@ import numpy as np
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import PandasTools, SaltRemover, Descriptors, Lipinski, Crippen, Mol
+from rdkit.Chem.MolStandardize.standardize import TautomerCanonicalizer, Uncharger
 
 __author__ = 'Marcel Baltruschat'
-__copyright__ = 'Copyright © 2020'
+__copyright__ = 'Copyright © 2020-2023'
 __license__ = 'MIT'
-__version__ = '1.0.0'
+__version__ = '1.1.0'
 
 # Selenium, Silicon and Bor
 BAD_ELEMENTS = ['Se', 'Si', 'B']
@@ -112,6 +113,7 @@ def parse_args() -> Namespace:
     parser.add_argument('infile', metavar='INFILE')
     parser.add_argument('outfile', metavar='OUTFILE')
     parser.add_argument('--keep-props', '-kp', metavar='PROP1,PROP2,...', default=[], type=lambda x: x.split(','))
+    parser.add_argument('--no-openeye', '-noe', action='store_true')
     return parser.parse_args()
 
 
@@ -366,6 +368,28 @@ def run_oe_tautomers(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def run_molvs_tautomers(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Unifies different tautomers and uncharge molecules with RDKit MolVS.
+
+    Parameters
+    ----------
+    df : DataFrame
+        DataFrame containing RDKit molecules
+
+    Returns
+    -------
+    DataFrame
+        DataFrame with tautomer canonized and uncharged structures
+    """
+    uc = Uncharger()
+    tc = TautomerCanonicalizer(max_tautomers=100)  # Default is 1000 but this takes to long
+    for ix in df.index:
+        df.loc[ix, 'ROMol'] = check_sanitization(tc.canonicalize(uc.uncharge(df.loc[ix, 'ROMol'])))
+    df.dropna(subset=['ROMol'], inplace=True)
+    return df
+
+
 def filter_strong_outlier_by_marvin(df: pd.DataFrame) -> pd.DataFrame:
     """
     Filters strong outliers that differ more than <MARVIN_LOG_CUT>
@@ -410,8 +434,14 @@ def main(args: Namespace) -> None:
     df = filtering(df)
     print(f'After filtering: {len(df)}')
 
-    df = run_oe_tautomers(df)
-    print(f'After QuacPac tautomers: {len(df)}')
+    if not args.no_openeye:
+        print('Using OpenEye QuacPac for tautomer and charge standardization...')
+        df = run_oe_tautomers(df)
+        print(f'After QuacPac tautomers: {len(df)}')
+    else:
+        print('Using RDKit MolVS for tautomer and charge standardization...')
+        df = run_molvs_tautomers(df)
+        print(f'After MolVS: {len(df)}')
 
     df = run_marvin_pka(df)
     print(f'After Marvin pKa: {len(df)}')
