@@ -68,8 +68,9 @@ cores you can edit the `train_model.py` by changing the value of the variable `E
 ```bash
 python train_model.py
 ```
-To use the prediction tool with the trained model *QUACPAC/Tautomers* have to be available 
-as it was mentioned in the [chapter above](#prep).
+If you used *QUACPAC/Tautomers* for dataset preparation it has to be available to use the prediction
+tool as it was mentioned in the [chapter above](#prep). If not, you have to use the `--no-openeye`
+flag for the prediction tool as well.
 
 Now you can call the python script with a SDF file and an output path:
 ```bash
