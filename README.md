@@ -103,7 +103,16 @@ dataset provided by Novartis<sup>[6]</sup>, used as external testset
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project and its software are licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+The datasets are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license - see the [datasets/LICENSE.txt](datasets/LICENSE.txt) file for details.
+
+## Citation
+
+If you use this code or the datasets in your research, please cite the following publications:
+- Code: [![DOI](https://zenodo.org/badge/DOI/10.12688/f1000research.22090.2.svg)](https://doi.org/10.12688/f1000research.22090.2)
+- Datasets: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7884512.svg)](https://doi.org/10.5281/zenodo.7884512)
+
 
 ## References
 
